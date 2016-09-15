@@ -4,7 +4,7 @@
 
 <h3> Steps </h3>
 
-Note: You will need Maven and Google Clpoud SDK installed
+Note: You will need Maven and Google Cloud SDK installed
 
 - Set the correct config for your new empty project as shown below. Sign-in to Google Cloud Platform (GCP) console and Create a new 
 project as shown in the image below using your own name.
