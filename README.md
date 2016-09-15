@@ -22,6 +22,7 @@ pasapicella@pas-macbook:~/pivotal/GCP$ gcloud config set project pas-spring-boot
 
 2. Clone this project as shown below
 
+3.
 
 <br />
 <hr />
