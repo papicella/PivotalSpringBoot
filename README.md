@@ -5,6 +5,8 @@ app engine applications a bit more flexibility over app platform, CPU and memory
 runtime environment in these VMs for app engine application. Actually Managed VMs of App Engine blurs the frontier 
 between IAAS and PAAS to some extent.
 
+This is an example of Java with Spring Boot in the App Engine Flexible Environment
+
 ![alt tag](https://dl.dropboxusercontent.com/u/15829935/platform-demos/images/springboot-gcp-1.png)
 
 <h3> Steps </h3>
