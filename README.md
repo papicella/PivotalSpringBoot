@@ -3,9 +3,21 @@
 Update: In March 2014 Google announced a new service under App Engine named Managed Virtual Machine. Managed VMs offers 
 app engine applications a bit more flexibility over app platform, CPU and memory options. Like GCE you can create a custom 
 runtime environment in these VMs for app engine application. Actually Managed VMs of App Engine blurs the frontier 
-between IAAS and PAAS to some extent.
+between IAAS and PAAS to some extent. This is an example of Java with Spring Boot in the App Engine Flexible Environment
 
-This is an example of Java with Spring Boot in the App Engine Flexible Environment
+You can run an App Engine application in two environments, the standard environment and the flexible environment. The 
+following table summarizes the differences between the two environments
+
+```
+Feature 	                Standard environment 	    Flexible environment
+---------------------------------------------------------------------------------------------------------
+Instance startup time 	    Milliseconds 	            Minutes
+Scaling 	                Manual, Basic, Automatic 	Manual, Automatic
+Writing to local disk 	    No 	                        Yes, ephemeral (disk initialized on each VM startup)
+Customizable serving stack 	No 	                        Yes (built by customizing a Dockerfile)
+```
+
+
 
 ![alt tag](https://dl.dropboxusercontent.com/u/15829935/platform-demos/images/springboot-gcp-1.png)
 
